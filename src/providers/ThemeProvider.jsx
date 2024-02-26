@@ -10,7 +10,7 @@ const ThemeProvider = ({ children }) => {
   useEffect(() => {
     setMounted(true);
   }, []);
-
+  
   if(mounted) {
     return (
       <div className={theme}>
