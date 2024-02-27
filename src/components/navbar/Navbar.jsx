@@ -20,9 +20,9 @@ const Navbar = () => {
       <div className={styles.logo}>SavikDev</div>
       <div className={styles.links}>
         <ThemeToggle />
-        <Link href="/">Bosh sahifa</Link>
-        <Link href="/">Aloqa</Link>
-        <Link href="/">Bloglar</Link>
+        <Link href="/" className={styles.link}>Uy</Link>
+        <Link href="/" className={styles.link}>Aloqa</Link>
+        <Link href="/" className={styles.link}>Bloglar</Link>
         <AuthLinks />
       </div>
     </div>
