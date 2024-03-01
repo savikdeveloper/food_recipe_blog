@@ -1,0 +1,48 @@
+.container {
+
+}
+.title {
+  margin: 50px 0;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+.category {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.ct_content{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.image {
+  border-radius: 50%;
+}
+.chicken {
+  background-color: #57c4ff31;
+}
+.pasta {
+  background-color: #da85c731;
+}
+.air_fryer {
+  background-color: #7fb88133;
+}
+.breakfast {
+  background-color: #ff795736;
+}
+.instantPot {
+  background-color: #ffb04f45;
+}
+.glutenFree {
+  background-color: #5e4fff31;
+}
+.tacos {
+  background-color: #57c4ff31;
+}
