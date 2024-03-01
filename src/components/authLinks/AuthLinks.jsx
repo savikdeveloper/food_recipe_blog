@@ -10,11 +10,11 @@ const AuthLinks = () => {
   return (
     <>
       {status === "notauthenticated" ? (
-        <Link href="/login" className={styles.link}>Kirish</Link>
+        <Link href="/login" className={styles.link}>Login</Link>
       ) : (
         <>
           <Link href="/write">Write</Link>
-          <span className={styles.link}>Chiqish</span>
+          <span className={styles.link}>Logout</span>
         </>
       )}
       <div className={styles.burger} onClick={() => setOpen(!open)}>
@@ -25,15 +25,15 @@ const AuthLinks = () => {
       {
         open && (
           <div className={styles.responsiveMenu}>
-            <Link href="/">Uy</Link>
-            <Link href="/">Aloqa</Link>
-            <Link href="/">Bloglar</Link>
+            <Link href="/">Home</Link>
+            <Link href="/">Contact</Link>
+            <Link href="/">Blogs</Link>
             {status === "notauthenticated" ? (
-              <Link href="/login">Kirish</Link>
+              <Link href="/login">Login</Link>
               ) : (
                 <>
                   <Link href="/write" className={styles.link}>Write</Link>
-                  <span className={styles.link}>Chiqish</span>
+                  <span className={styles.link}>Logout</span>
                 </>
               )
             }

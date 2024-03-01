@@ -20,9 +20,9 @@ const Navbar = () => {
       <div className={styles.logo}>SavikDev</div>
       <div className={styles.links}>
         <ThemeToggle />
-        <Link href="/" className={styles.link}>Uy</Link>
-        <Link href="/" className={styles.link}>Aloqa</Link>
-        <Link href="/" className={styles.link}>Bloglar</Link>
+        <Link href="/" className={styles.link}>Home</Link>
+        <Link href="/" className={styles.link}>Contact</Link>
+        <Link href="/" className={styles.link}>Blogs</Link>
         <AuthLinks />
       </div>
     </div>
